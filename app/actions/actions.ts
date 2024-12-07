@@ -1,7 +1,6 @@
 // app/actions.ts
 'use server'
 
-import { PrismaClient } from '@prisma/client';
 import { prisma } from '@/lib/prisma'; // Use the externalized Prisma client
 import { User, userSchema } from './schemas';
 
