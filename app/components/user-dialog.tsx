@@ -30,8 +30,8 @@ export function UserDialog() {
       formSchema={userFormSchema}
       FormComponent={UserForm}
       action={handleAddUser}
-      triggerButtonLabel="Add User"
-      addDialogTitle="Add New User"
+      triggerButtonLabel="Add"
+      addDialogTitle="Add New"
       dialogDescription="Fill out the form below to add a new user."
       submitButtonLabel="Add User"
     />

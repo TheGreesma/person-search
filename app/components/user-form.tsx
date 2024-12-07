@@ -48,7 +48,7 @@ export function UserForm({ form }: FormComponentProps) {
           <FormItem>
             <FormLabel>Email</FormLabel>
             <FormControl>
-              <Input type="email" placeholder="john@example.com" {...field} />
+              <Input type="email" placeholder="user's email" {...field} />
             </FormControl>
             <FormDescription>
               Enter email address.
